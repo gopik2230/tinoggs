@@ -1,0 +1,192 @@
+body {
+    font-family: Montserrat;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/* 
+h2 {
+    font-weight: bold;
+} */
+
+.logo {
+    width: 5rem;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#navbarTogglerDemo02 a:hover {
+    color: white;
+    border: 1px solid white;
+    opacity: 0.7;
+    background-color: black;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: montserrat;
+}
+
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+@media (min-width: 992px) {
+    #features {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width:992px) {
+    .title-image {
+        transform: rotate(0);
+    }
+    #features {
+        margin-top: 0;
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+#features {
+    padding: 7% 10%;
+    font-size: 1rem;
+    background-color: white;
+    position: relative;
+}
+
+.features-h3 {
+    font-family: "Montserrat-Black";
+    /* font-weight: bold; */
+}
+
+.feature-box {
+    text-align: center;
+}
+
+p {
+    color: grey;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+
+/* h2 {
+    font-family: "Montserrat-bold";
+} */
+
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-image {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#pricing-h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+/* #cta {
+    background-color: #ff4c68;
+    padding: 10% 15%;
+    text-align: center;
+    color: white;
+} */
+
+.container-fluid2 {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+}
+
+.cta-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: Montserrat-black;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
